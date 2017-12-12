@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
+    <title>Jayam Shah</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    
+    
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+        <![endif]-->
+        <!--[if gt IE 8]><!-->
+            <link rel="stylesheet" href="css/layouts/side-menu.css">
+        <!--<![endif]-->
+</head>
+<body>
+
+
+
+
+
+
+<div id="layout">
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link active">
+        <!-- Hamburger icon -->  
+        <span>
+        </span>
+    </a>
+
+    <div id="menu">
+        <div class="pure-menu">
+            <a class="pure-menu-heading" href="#">Jayam Shah</a>
+
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="index.html" class="pure-menu-link">About</a></li>
+
+                <li class="pure-menu-item menu-item-divided">
+                    <a href="resume.html" class="pure-menu-link">Resume</a>
+                </li>
+
+                <li class="pure-menu-item pure-menu-selected"><a href="contact.html" class="pure-menu-link ">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="header">
+            <h1>Jayam Shah</h1>
+            <h2>UIUC 2021</h2>
+        </div>
+        
+        <div class="content">
+            <h2 class="content-subhead">Contact Info</h2>
+            <div>
+                <div>
+                    <a href=https://www.linkedin.com/in/jayam-s-20636511b> <img style="height: 100px; float: left" src="linkedin.png"> </a>
+                    <h2 style="float: left; line-height: 100px; padding-left: 20px"> <a href=https://www.linkedin.com/in/jayam-s-20636511b> LinkedIn </a> </h2>
+                </div>  
+            </div>
+            
+            <div style="clear: left">
+                <div>
+
+                    <a title="jshah59@illinois.edu"> <img src="email.png" style="height: 100px; float: left"> </a>
+                    <h2 style="float: left; line-height: 100px; padding-left: 20px">
+                        <a href="mailto:jshah59@illinois.edu"> jshah59@illinois.edu</a>
+                    </h2>
+
+                </div>
+            </div>
+            
+            <div style="clear: left">
+                <div>
+
+                    <a title="https://github.com/jshah59"> <img src="github.png" style="height: 100px; float: left"> </a>
+                    <h2 style="float: left; line-height: 100px; padding-left: 20px">
+                        <a href="https://github.com/jshah59"> GitHub</a>
+                    </h2>
+
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="js/ui.js"></script>
+
+</body>
+</html>
