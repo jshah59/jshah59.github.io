@@ -3,9 +3,9 @@
   "endingRoom": "Riften",
   "player": {
     "name": "Jayam",
-    "attack": 50.0,
-    "defense": 40.0,
-    "health": 200,
+    "attack": 20.0,
+    "defense": 15.0,
+    "health": 100,
     "items": [],
     "level": 0
   },
